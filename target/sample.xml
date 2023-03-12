@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="23.714029">
+<testcase classname="Verify Adactin Login Page" name="Verify Login with valid credentials" time="13.188092">
+<system-out><![CDATA[Given User is on adactin page...............................................passed
+When User enters "nitish123" and "Q8PTF9" and Click on Login Button.........passed
+Then User verify login sucess message "Hello Nitish123!"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Adactin Login Page" name="Verify Login with invalid credentials" time="5.293084">
+<system-out><![CDATA[Given User is on adactin page...............................................passed
+When User enters "nitish123" and "hello@123" and Click on Login Button......passed
+Then User verify login error message "Invalid Login details or Your Password might have expired. ".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Adactin Login Page" name="Verify login page using Enter key with valid credentials" time="5.232853">
+<system-out><![CDATA[Given User is on adactin page...............................................passed
+When User enters userName and password and press enter key..................passed
+Then User verify login sucess message "Hello nitish123!"....................passed
+]]></system-out>
+</testcase>
+</testsuite>
